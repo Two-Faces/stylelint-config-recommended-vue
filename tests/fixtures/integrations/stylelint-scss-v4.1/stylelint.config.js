@@ -1,5 +1,5 @@
 "use strict";
 
 module.exports = {
-  extends: "stylelint-config-recommended-vue/scss",
+  extends: "two-faces-stylelint-config-recommended-vue/scss",
 };

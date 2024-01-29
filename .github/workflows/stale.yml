@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   stale:
-    if: github.repository == 'ota-meshi/stylelint-config-recommended-vue'
+    if: github.repository == 'Two-Faces/stylelint-config-recommended-vue'
     name: Close stale issues with missing information
     runs-on: ubuntu-latest
     steps:

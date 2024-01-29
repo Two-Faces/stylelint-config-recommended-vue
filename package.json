@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-recommended-vue",
+  "name": "two-faces-stylelint-config-recommended-vue",
   "version": "1.5.0",
   "description": "The recommended shareable Vue config for Stylelint.",
   "keywords": [
@@ -27,7 +27,7 @@
   "dependencies": {
     "semver": "^7.3.5",
     "stylelint-config-html": ">=1.0.0",
-    "stylelint-config-recommended": ">=6.0.0"
+    "stylelint-config-recommended": "^13.0.0"
   },
   "peerDependencies": {
     "stylelint": ">=14.0.0",
@@ -49,17 +49,17 @@
     "eslint-plugin-yml": "^1.0.0",
     "mocha": "^10.0.0",
     "prettier": "^3.0.0",
-    "stylelint": "^16.0.0"
+    "stylelint": "^15.11.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ota-meshi/stylelint-config-recommended-vue.git"
+    "url": "git+https://github.com/ota-meshi/two-faces-stylelint-config-recommended-vue.git"
   },
   "author": "Yosuke Ota (https://github.com/ota-meshi)",
   "funding": "https://github.com/sponsors/ota-meshi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ota-meshi/stylelint-config-recommended-vue/issues"
+    "url": "https://github.com/Two-Faces/stylelint-config-recommended-vue/issues"
   },
-  "homepage": "https://github.com/ota-meshi/stylelint-config-recommended-vue#readme"
+  "homepage": "https://github.com/Two-Faces/stylelint-config-recommended-vue#readme"
 }

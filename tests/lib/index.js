@@ -8,11 +8,13 @@ const semver = require("semver");
 
 cp.execSync("npm pack", { stdio: "inherit" });
 const orgTgzName = path.resolve(
-  `stylelint-config-recommended-vue-${
+  `two-faces-stylelint-config-recommended-vue-${
     require("../../package.json").version
   }.tgz`,
 );
-const tgzName = path.resolve(`stylelint-config-recommended-vue-test.tgz`);
+const tgzName = path.resolve(
+  `two-faces-stylelint-config-recommended-vue-test.tgz`,
+);
 if (fs.existsSync(tgzName)) {
   fs.unlinkSync(tgzName);
 }
@@ -46,7 +48,7 @@ for (const entry of fs.readdirSync(FIXTURES_ROOT_DIR, {
       process.chdir(fixtureDir);
       cp.execSync(`npm i ${tgzName}`, { stdio: "inherit" });
       cp.execSync(
-        "npx rimraf ./node_modules/stylelint-config-recommended-vue",
+        "npx rimraf ./node_modules/two-faces-stylelint-config-recommended-vue",
         { stdio: "inherit" },
       );
       cp.execSync("npm i", { stdio: "inherit" });

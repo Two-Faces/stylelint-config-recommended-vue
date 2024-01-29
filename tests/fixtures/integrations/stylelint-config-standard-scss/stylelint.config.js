@@ -3,6 +3,6 @@
 module.exports = {
   extends: [
     "stylelint-config-standard-scss",
-    "stylelint-config-recommended-vue/scss",
+    "two-faces-stylelint-config-recommended-vue/scss",
   ],
 };

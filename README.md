@@ -1,10 +1,10 @@
-# stylelint-config-recommended-vue
+# two-faces-stylelint-config-recommended-vue
 
-[![NPM license](https://img.shields.io/npm/l/stylelint-config-recommended-vue.svg)](https://www.npmjs.com/package/stylelint-config-recommended-vue)
-[![NPM version](https://img.shields.io/npm/v/stylelint-config-recommended-vue.svg)](https://www.npmjs.com/package/stylelint-config-recommended-vue)
-[![NPM downloads](https://img.shields.io/npm/dw/stylelint-config-recommended-vue.svg)](http://www.npmtrends.com/stylelint-config-recommended-vue)
-[![NPM downloads](https://img.shields.io/npm/dm/stylelint-config-recommended-vue.svg)](http://www.npmtrends.com/stylelint-config-recommended-vue)
-[![Build Status](https://github.com/ota-meshi/stylelint-config-recommended-vue/workflows/CI/badge.svg?branch=main)](https://github.com/ota-meshi/stylelint-config-recommended-vue/actions?query=workflow%3ACI)
+[![NPM license](https://img.shields.io/npm/l/two-faces-stylelint-config-recommended-vue.svg)](https://www.npmjs.com/package/two-faces-stylelint-config-recommended-vue)
+[![NPM version](https://img.shields.io/npm/v/two-faces-stylelint-config-recommended-vue.svg)](https://www.npmjs.com/package/two-faces-stylelint-config-recommended-vue)
+[![NPM downloads](https://img.shields.io/npm/dw/two-faces-stylelint-config-recommended-vue.svg)](http://www.npmtrends.com/two-faces-stylelint-config-recommended-vue)
+[![NPM downloads](https://img.shields.io/npm/dm/two-faces-stylelint-config-recommended-vue.svg)](http://www.npmtrends.com/two-faces-stylelint-config-recommended-vue)
+[![Build Status](https://github.com/ota-meshi/two-faces-stylelint-config-recommended-vue/workflows/CI/badge.svg?branch=main)](https://github.com/ota-meshi/two-faces-stylelint-config-recommended-vue/actions?query=workflow%3ACI)
 
 > The recommended shareable Vue config for [Stylelint].
 
@@ -23,7 +23,7 @@ To see the rules that this config uses, please read the [config itself](/lib/ind
 ## :cd: Installation
 
 ```shell
-npm install --save-dev postcss-html stylelint-config-recommended-vue
+npm install --save-dev postcss-html two-faces-stylelint-config-recommended-vue
 ```
 
 ## :book: Usage
@@ -32,7 +32,7 @@ Set your `stylelint` config to:
 
 ```json
 {
-    "extends": "stylelint-config-recommended-vue"
+    "extends": "two-faces-stylelint-config-recommended-vue"
 }
 ```
 
@@ -61,7 +61,7 @@ Set your `stylelint` config to:
 
 ```json
 {
-    "extends": "stylelint-config-recommended-vue/scss"
+    "extends": "two-faces-stylelint-config-recommended-vue/scss"
 }
 ```
 
@@ -71,7 +71,7 @@ When used with `stylelint-config-standard-scss`:
 {
     "extends": [
         "stylelint-config-standard-scss",
-        "stylelint-config-recommended-vue/scss"
+        "two-faces-stylelint-config-recommended-vue/scss"
     ]
 }
 ```
@@ -86,7 +86,7 @@ For example, to add the `unit-allowed-list` rule:
 
 ```json
 {
-    "extends": "stylelint-config-recommended-vue",
+    "extends": "two-faces-stylelint-config-recommended-vue",
     "overrides": [
         {
             "files": ["*.vue", "**/*.vue"],
